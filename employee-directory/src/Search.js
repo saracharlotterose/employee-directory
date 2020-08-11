@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function MultilineTextFields() {
+export default function TextFields() {
   const classes = useStyles();
   const [value, setValue] = React.useState('Controlled');
 
